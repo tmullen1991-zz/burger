@@ -2,11 +2,11 @@
 
 ## What is the App?
 
-Eat-Da-Burger is a basic full-stack webapage that uses express, express-handlebars, MySQL and is deployed via heroku with JawsDB. The app uses a custom ORM rather than sequelize, as an intro exercise to basic routng using MySQL. Checkout the app here! https://pacific-bastion-23235.herokuapp.com/ The basic funsitons of the app are to allow anyone to enter a burger name and add it to a list of burgers that can be eaten with a "Devour it" button associated with each burger. If the button is clicked the burger object is moved to a list of eaten burgers.
+Eat-Da-Burger is a basic full-stack webapage that uses express, express-handlebars, MySQL and is deployed via heroku with JawsDB. The app uses a custom ORM rather than sequelize, as an intro exercise to basic routing using MySQL. Checkout the app here! https://pacific-bastion-23235.herokuapp.com/ The basic functions of the app are to allow anyone to enter a burger name and add it to a list of burgers that can be eaten with a "Devour it" button associated with each burger. If the button is clicked the burger object is moved to a list of eaten burgers.
 
 ## How it Works
 
-The app uses a single MySQL table that adds burgers by name and a boolean value to determine if it has been eaten. SQL commands are handled in a custom ORM.js fial with three basic function for selecting all burgers from the table to be added to the page, inserting a new burger to the database, and updating burgers boolean "eaten" value. 
+The app uses a single MySQL table that adds burgers by name and a boolean value to determine if it has been eaten. SQL commands are handled in a custom ORM.js file with three basic function for selecting all burgers from the table to be added to the page, inserting a new burger to the database, and updating burgers boolean "eaten" value. 
 
 #### Example SQL code from ORM.js
 
